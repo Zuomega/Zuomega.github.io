@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" >
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+  <title>Project-- New to LaTeX-installation | Zuomega</title>
+  <meta name="description" content="" />
+  <meta name="HandheldFriendly" content="True" />
+  <meta name="MobileOptimized" content="320" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="stylesheet" type="text/css" href="/css/screen.css" />
+  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Noto+Serif:400,700,400italic|Open+Sans:700,400" />
+
+  <meta name="generator" content="Zuomega">
+
+  
+  
+  
+
+  
+</head>
+
+
+<body class="post-template">
+
+  <header class="site-head"  style="background-image: url(/image/cover.png)" >
+    <div class="vertical">
+        <div class="site-head-content inner">
+             <a class="blog-logo" href="/"><img src="/image/logo.png" alt="Blog Logo"/></a> 
+            <h1 class="blog-title">Zuomega</h1>
+            <h2 class="blog-description"></h2>
+        </div>
+    </div>
+</header>
+  
+
+<main class="content" role="main">
+  <article class="post">
+    <span class="post-meta">
+      <time datetime="2017-10-24T07:50:48.618Z" itemprop="datePublished">
+          2017-10-24
+      </time>
+    
+</span>
+    <h1 class="post-title">Project-- New to LaTeX-installation</h1>
+    <section class="post-content">
+      <p>I read occasionally on line about LaTeX, finding it a very powerful text editor especially for thesis or book. You could change the content and format respectively, and you can download or upload template of your work.(I strongly hope that my university could publish LaTeX template of the graduation thesis to us, so that no one need to change their paper format once after another as before.)</p>
+<p>Since we already have many instructions,in my blog,I will mainly focus on problems I met and my feelings.</p>
+<h4 id="REFERENCE"><a href="#REFERENCE" class="headerlink" title="REFERENCE"></a>REFERENCE</h4><p>I configure my own LaTeX environment based on this website:<a href="http://www.latexstudio.net/archives/1169" target="_blank" rel="external">http://www.latexstudio.net/archives/1169</a> (Chinese). </p>
+<h4 id="PREFACE"><a href="#PREFACE" class="headerlink" title="PREFACE"></a>PREFACE</h4><p>From my point of view, the change from traditional editor as Word to Latex is similar to the process-oriented programming to object-oriented one. In traditional one, you type in your words sentence after sentence, and change their format by selecting sentences. In LaTeX, you type your contents in plain text, and you create a framework of the format. Then you make a connection between your content and your format. That’s a big step for editor! It means, I needn’t worry about that any mistake would happen when I want to change some contents in my thesis, and I can even change the format of a whole book easily.</p>
+<p>There are several kinds of editors implementing LaTeX that you could use, many of them are free, too. You could edit English, as well as almost any other languages there. </p>
+<h4 id="INSTALLATION"><a href="#INSTALLATION" class="headerlink" title="INSTALLATION"></a>INSTALLATION</h4><p>The commonly recommended editor is TeXworks, which I found directly attached to the MiKTeX engine file I downloaded. This means the easiest way to get access is to go on the official site of LaTeX(just search it) and download a MikTeX. Then you can experience LaTeX.</p>
+<p>However, since I am used to programing in Sublime Text, I would like to use Sublime Text as my editor.</p>
+<p>There are three and a half steps to get your Sublime Text ready.</p>
+<p>1.Make sure you have Package Control.(If not, install it.Instructions are shown in the reference website)</p>
+<p>2.Install LaTeXTools to your sublime Text via Package Control.(You could also do this manually)</p>
+<p>3.Install MikTeX, the engine.</p>
+<p>4.install SumatraPDF, the viewer of ‘cooked’ LaTeX file.Add it to PATH so that sublime could open it when needed.(PDF is one kind of result you get from LaTeX )</p>
+<h4 id="PROBLEMS"><a href="#PROBLEMS" class="headerlink" title="PROBLEMS"></a>PROBLEMS</h4><p>2.-&gt; Someone may find their “<u>downloading</u>“ process is frozen. This may due to your Internet access to certain website is blocked. Try to fix your Internet environment, or download it manually.</p>
+<p>3.-&gt;In fact, from<a href="https://www.zhihu.com/question/36038602?sort=created(Chinese" target="_blank" rel="external">https://www.zhihu.com/question/36038602?sort=created(Chinese</a>), you should configure your LaTeXTools before use:</p>
+<p>​    When you finish installing LaTeXTools, click” <u>Preferences-Package Settings-LaTeXTools-Reset User setting to default</u>“(In the reference web page, it is “<u>Reconfigure and migrate settings</u>“ ) to create a “<u>LaTeXTools.sublime-settings</u>“ file in  “<u>User</u>“ menu.</p>
+<p>​    Open”<u>LaTeXTools.sublime-settings</u>“ file and change the content of “<u>texpath</u>“ into “<u>C:\Programs Files\MiKTeX 2.9\miktex\bin\x64;$PATH</u>“(address of miktex)</p>
+<p>And I made a clever mistake that I didn’t change my  <u>Build System</u> into LaTeX, which causes a series of failure and frustration.</p>
+<p>From now on, you could edit directly in your Sublime Text and press”<u>ctrl+B</u>“  to see the PDF result of your work!</p>
+
+    </section>
+    <footer class="post-footer">
+      <section class="author">
+    <h4>Dennis Liu</h4>
+    <p>A EE student, part-time translator,and design lover. Posting his ideas, study life and experience here.</p>
+</section>
+      <section class="share">
+    <h4>Share this post</h4>
+    <a class="icon-twitter" href="http://twitter.com/share?url=http://yoursite.com/2017/10/24/[ProJ] New to LaTeX-installation/"
+       onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+        <span class="hidden">Twitter</span>
+    </a>
+    <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://yoursite.com/2017/10/24/[ProJ] New to LaTeX-installation/"
+       onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+        <span class="hidden">Facebook</span>
+    </a>
+    <a class="icon-google-plus" href="https://plus.google.com/share?url=http://yoursite.com/2017/10/24/[ProJ] New to LaTeX-installation/"
+       onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
+        <span class="hidden">Google+</span>
+    </a>
+</section>
+    </footer>
+  </article>
+  <nav class="pagination" role="pagination">
+    
+    <span class="page-number">•</span>
+    
+    <a class="older-posts" href="/2017/09/10/hello-world/">
+        Hello World →
+    </a>
+    
+</nav>
+  <div id="comment" class="comments-area">
+    <h1 class="title"><a href="#disqus_comments" name="disqus_comments">Comments</a></h1>
+
+    
+</div>
+</main>
+
+
+  
+<footer class="site-footer">
+  
+  <div class="inner">
+     <section class="copyright">All content copyright <a href="/">Zuomega</a> &copy; 2014 &bull; All rights reserved.</section>
+     <section class="poweredby">Proudly published with <a class="icon-ghost" href="http://zespia.tw/hexo/">Hexo</a></section>
+  </div>
+</footer>
+
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+<script type="text/javascript" src="/js/jquery.fitvids.js"></script>
+<script type="text/javascript" src="/js/index.js"></script>
+
+
+
+
+
+
+</body>
+</html>
